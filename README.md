@@ -1,103 +1,78 @@
-Employee Attrition Prediction
-📌 Overview
-Employee attrition is a major challenge for organizations, impacting productivity, morale, and costs. This project applies machine learning techniques to predict whether an employee is likely to leave, helping HR teams take proactive measures to improve retention.
+# Employee Attrition Prediction
 
-🎯 Objectives
-Predict employee attrition using historical HR data.
+## 📌 Project Overview
+Employee Attrition Prediction is a Machine Learning project that predicts whether an employee is likely to leave the company based on HR-related data. This helps organizations identify employees at risk of attrition and make better retention decisions.
 
-Identify the most important factors influencing turnover.
+## 🚀 Features
+- Employee attrition prediction using Machine Learning
+- Data preprocessing and cleaning
+- Exploratory Data Analysis (EDA)
+- Model training and evaluation
+- Interactive Flask web application
+- User-friendly prediction interface
 
-Provide actionable insights for HR decision-making.
+## 🛠️ Technologies Used
+- Python
+- Flask
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- HTML
+- CSS
+- Git & GitHub
 
-Build a reproducible pipeline for data preprocessing, model training, and evaluation.
+## 📊 Dataset
+The project uses an HR Employee Attrition dataset containing employee information such as:
+- Age
+- Department
+- Job Role
+- Monthly Income
+- Years at Company
+- Job Satisfaction
+- Overtime
+- Education
+- Work Experience
+- Attrition Status
 
-📂 Dataset
-Source: IBM HR Analytics dataset or organizational HR data.
+## 📈 Machine Learning Workflow
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Feature Engineering
+5. Model Training
+6. Model Evaluation
+7. Prediction using Flask Web App
 
-Features: Age, Department, Job Role, Salary, Years at Company, Work-Life Balance, Job Satisfaction, etc.
+## 📷 Screenshots
+(Add screenshots of your dashboard or web application here.)
 
-Target Variable: Attrition (Yes/No).
+## ▶️ How to Run
 
-⚙️ Methodology
-Data Preprocessing
-
-Handle missing values
-
-Encode categorical variables
-
-Scale numerical features
-
-Exploratory Data Analysis (EDA)
-
-Attrition distribution
-
-Feature correlations
-
-Visualization of trends
-
-Model Development
-
-Logistic Regression
-
-Random Forest
-
-Gradient Boosting (XGBoost/LightGBM)
-
-Neural Networks (optional)
-
-Model Evaluation
-
-Accuracy
-
-Precision, Recall, F1-score
-
-ROC-AUC curve
-
-Feature Importance
-
-Identify top predictors of attrition.
-
-📊 Results
-Best-performing model: Random Forest (example).
-
-Key attrition drivers:
-
-Job Satisfaction
-
-Work-Life Balance
-
-Monthly Income
-
-Years at Company
-
-🚀 Usage
 bash
-# Clone the repository
-git clone https://github.com/yourusername/employee-attrition-prediction.git
-
-# Navigate to project folder
-cd employee-attrition-prediction
-
-# Install dependencies
+git clone https://github.com/sowkath-data/Employee-Attrition-Prediction.git
+cd Employee-Attrition-Prediction
 pip install -r requirements.txt
+python app.py
 
-# Run the model
-python main.py
-🛠️ Technologies
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
 
-Jupyter Notebook
+Then open your browser and visit:
 
-Machine Learning Algorithms
 
-📈 Future Work
-Deploy model with Flask/Django for HR dashboards.
+http://127.0.0.1:5000
 
-Integrate with real-time HR systems.
 
-Experiment with deep learning models.
+## 📌 Future Improvements
+- Improve prediction accuracy
+- Deploy on cloud
+- Add more visualization dashboards
+- Enhance user interface
 
-👨‍💻 Contributors
-Sowkath
+## 👨‍💻 Author
 
-[Add team members here]
+*Sowkath A*
+
+- B.Sc. Information Technology
+- Aspiring Data Analyst & Machine Learning Enthusiast
+
+⭐ If you found this project useful, please consider giving it a star.
